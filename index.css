@@ -1,0 +1,15 @@
+#numeros,#sorted{
+    width: 700px;
+}
+
+#tabla_histograma thead{
+    background-color: rgb(218, 218, 218);
+    
+}
+
+#tabla_histograma thead tr{
+    text-align: center;
+}
+#tabla_histograma tbody tr {
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <label for="numeros">Numeros</label>
+    <input type="text" placeholder="1,2,2,4,554,23" name="numeros" id="numeros">
+    <button id="calcular">CALCULAR</button>
+    <hr>
+
+    <label for="sorted">Números ordenados:</label>
+    <input type="text" name="sorted" id="sorted" readonly> <br>
+
+    <label for="longitud">Longitud:</label>
+    <input type="text" name="longitud" id="longitud" readonly> <br>
+
+    <label for="clases">Clases:</label>
+    <input type="text" name="clases" id="clases" readonly> <br>
+
+    <label for="rango">Rango:</label>
+    <input type="text" name="rango" id="rango" readonly> <br>
+
+    <label for="ancho">Ancho:</label>
+    <input type="text" name="ancho" id="ancho" readonly> <br>
+
+    <label for="media">Media:</label>
+    <input type="text" name="media" id="media" readonly> <br>
+
+    <label for="mediana">Mediana:</label>
+    <input type="text" name="mediana" id="mediana" readonly> <br>
+
+    <label for="moda">Moda:</label>
+    <input type="text" name="moda" id="moda" readonly> <br>
+
+    <label for="varianza">Varianza:</label>
+    <input type="text" name="varianza" id="varianza" readonly> <br>
+
+    <label for="desviacion_estandar">Desviación estandar:</label>
+    <input type="text" name="desviacion_estandar" id="desviacion_estandar" readonly> <br>
+
+    <table id="tabla_histograma">
+        <tr>
+            <thead>
+                <th>Clase</th>
+                <th>Rango Menor</th>
+                <th>Rango Mayor</th>
+                <th>Frecuencia</th>
+                <th>Frecuencia Relativa</th>
+                <th>Porcentaje</th>                
+            </thead>
+            <tbody id="datos">
+
+            </tbody>
+        </tr>   
+      </table>
+      
+
+</body>
+<script type="module"src="index.js"></script>
+</html>
