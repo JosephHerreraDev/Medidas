@@ -1,15 +1,57 @@
-#numeros,#sorted{
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.entrada {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entrada label {
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+#numeros {
+  width: 70%;
+  margin: 0 2px;
+  border-radius: 5px;
+}
+
+@media (min-width: 769px) {
+  .entrada {
     width: 700px;
+  }
+
+  #numeros {
+    width: 95%;
+    margin: 0 10px;
+  }
 }
 
-#tabla_histograma thead{
-    background-color: rgb(218, 218, 218);
-    
+#calcular {
+  border-radius: 5px;
+  padding: 5px;
 }
 
-#tabla_histograma thead tr{
-    text-align: center;
+#calcular:hover {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.separator {
+  border: 1px solid #000000;
+  margin: 15px 0;
+}
+
+#tabla_histograma thead {
+  background-color: rgb(218, 218, 218);
+}
+
+#tabla_histograma thead tr {
+  text-align: center;
 }
 #tabla_histograma tbody tr {
-    text-align: center;
+  text-align: center;
 }

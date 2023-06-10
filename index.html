@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <label for="numeros">Numeros</label>
-    <input type="text" placeholder="1,2,2,4,554,23" name="numeros" id="numeros">
-    <button id="calcular">CALCULAR</button>
-    <hr>
-
-    <label for="sorted">Números ordenados:</label>
-    <input type="text" name="sorted" id="sorted" readonly> <br>
+    <h1>Calculadora de probabilidad</h1>
+    <p>Ingrese los numeros que desea procesar separados por coma:</p>
+    <div class="entrada">
+        <label for="numeros">Numeros</label>
+        <input type="text" placeholder="1,2,2,4,554,23" name="numeros" id="numeros">
+        <button id="calcular">CALCULAR</button>
+    </div>
+    
+    <hr class="separator">
+    
+    <div class="ordenado">
+        <label for="sorted">Números ordenados:</label>
+        <input type="text" name="sorted" id="sorted" readonly> <br>
+    </div>
+    
 
     <label for="longitud">Longitud:</label>
     <input type="text" name="longitud" id="longitud" readonly> <br>
